@@ -98,4 +98,4 @@ if __name__ == '__main__':
         dns = change_dns(cloud, info[index]["recordId"], ip_address)
         pushplus_content.append(dns)
 
-    pushplus('\n'.join(pushplus_content))
+    #pushplus('\n'.join(pushplus_content))
